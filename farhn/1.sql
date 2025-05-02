@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 30, 2025 at 10:57 PM
+-- Generation Time: May 02, 2025 at 06:20 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.1.25
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `dbwebsite`
+-- Database: `1`
 --
 
 -- --------------------------------------------------------
@@ -129,7 +129,7 @@ CREATE TABLE `partners` (
 --
 
 INSERT INTO `partners` (`id`, `nama`, `foto`, `isi`, `tgl_isi`) VALUES
-(1, 'UIN Sunan Kalijaga', 'partners_1617496652_uin.jpg', '<p>UIN Sunan Kalijaga<br></p>', '2021-04-04 00:37:32');
+(1, 'Universitas Muhammadiyah Kotabumi', 'umko.jpeg', '<p>Universitas Muhammadiyah Kotabumi<br>Visi pada tahun 2038 menjadi perguruan tinggi berbasis teknopreneurship, islami, unggul, dan berbasis kearifan lokal. </br>\r\n<br>Misi kampus ini adalah Mengembangkan kelembagaan yang sehat dan amanah berdasarkan prinsip good university governance\r\nMengembangkan ilmu pengetahuan teknologi dan seni yang memberikan manfaat bagimasyarakat\r\nMenyelenggarakan pendidikan, pengajaran, penelitian, peng­abdi­an pada masyarakat dan kerja sama secara profesional\r\nMembentuk insan sivitas akademika yang cerdas, berdaya saing, berakhlak mulia, dan menjunjung nilai-nilai Islam\r\nMengembangkan Muhammadiyah sebagai wahana pencerahan bagi umat dan bangsa.</br></p>', '2021-04-04 00:37:32');
 
 -- --------------------------------------------------------
 
@@ -150,7 +150,7 @@ CREATE TABLE `tutors` (
 --
 
 INSERT INTO `tutors` (`id`, `nama`, `foto`, `isi`, `tgl_isi`) VALUES
-(2, 'Farhan Ferdiansyah', 'Farhan Ferdiansyah.jpg', '<p>Farhan Ferdiansyah[1] berprofesi sebagai Mahasiswa Aktif, Universitas Muhammadiyah Kotabumi, Fakultas Teknik Ilmu dan Komputer, dengan Prodi Sistem Teknologi Informasi. Motivasi Farhan Sangat Ambisius dalam mencari ilmu-ilmu komputer yang lebih mendalam<br></p>', '2021-04-02 22:21:41');
+(2, 'Farhan Ferdiansyah', 'Farhan Ferdiansyah.jpg', '<p>Farhan Ferdiansyah[1] berprofesi sebagai Mahasiswa Aktif, Universitas Muhammadiyah Kotabumi, Fakultas Teknik Ilmu dan Komputer, dengan Prodi Sistem Teknologi Informasi. Motivasi Farhan Sangat Ambisius dalam mencari ilmu-ilmu komputer yang lebih mendalam.\r\n</p><p><br>Saya berasal dari lampung[2] dengan kedua orang tua tercinta saya, hobi saya bisa dikatakan banyak dikarenakan saya sangat suka dengan suasana baru, mencari relasi, menambah teman, dll.</br><br>\r\n</br></p>', '2021-04-02 22:21:41');
 
 --
 -- Indexes for dumped tables
